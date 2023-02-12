@@ -2,15 +2,16 @@
 <html>
 <body>
   <script>
-    let a = prompt('Чему равно a?');
-    let b = prompt('Чему равно b?');
+    var a = prompt('Чему равно a?', '0');
+    var b = prompt('Чему равно b?', '0');
+    (+a + +a)==+b ? result='Значения равны' : result='Значения не равны';
+    alert(result);
     /*if ((a+a)==b) {
     result = 'Значения равны';
     } else {
         result = 'Значения не равны';
     } ;
     alert(result); */
-    (a+a)==b ? alert('Значения равны') : alert('Значения не равны');
   </script>  
 </body>
 </html>
